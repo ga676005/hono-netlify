@@ -1,0 +1,7 @@
+[[edge_functions]]
+  function = "hello"
+  path = "/test"
+
+[[edge_functions]]
+  function = "index"
+  path = "/*"
