@@ -1,5 +1,5 @@
-import { Context, Hono } from "npm:hono";
-import { handle } from "npm:hono/netlify";
+import { Context, Hono } from "jsr:@hono/hono";
+import { handle } from "jsr:@hono/hono/netlify";
 import type { Context as NetlifyContext } from "https://edge.netlify.com/";
 import { handle_b } from "../../handle_b.ts";
 
